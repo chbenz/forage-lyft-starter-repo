@@ -1,6 +1,5 @@
 import unittest
 import sys
-from datetime import datetime
 
 sys.path.append('..')
 from engine.capulet_engine import CapuletEngine
