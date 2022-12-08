@@ -16,3 +16,5 @@ This repo has everything you need to get started on the program, good luck!
 09/12/2022: Upgraded Spindler batteries
 
 09/12/2022: Unit tests for tire written
+
+09/12/2022: Tire servicing criteria implemented

@@ -2,7 +2,7 @@ from tire.tire import Tire
 
 class CarriganTire(Tire):
     def __init__(self, wear_sensor):
-        pass
+        self.wear_sensor = wear_sensor
 
     def needs_service(self):
-        pass
+        return any(i >= 0.9 for i in self.wear_sensor)

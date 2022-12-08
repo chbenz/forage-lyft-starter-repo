@@ -2,7 +2,7 @@ from tire.tire import Tire
 
 class OctoprimeTire(Tire):
     def __init__(self, wear_sensor):
-        pass
+        self.wear_sensor = wear_sensor
 
     def needs_service(self):
-        pass
+        return sum(self.wear_sensor) >= 3

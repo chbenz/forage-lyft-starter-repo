@@ -7,7 +7,7 @@ from tire.octoprime_tire import OctoprimeTire
 
 tire_ok = [0.5, 0.5, 0.5, 0.5]
 carrigan_no = [0.5, 0.9, 0.5, 0.5]
-octoprime_no = [0.8, 0.8, 0.8, 0.8]
+octoprime_no = [0.75, 0.75, 0.75, 0.75]
 
 class TestCarriganTire(unittest.TestCase):
     def test_need_no_service(self):
